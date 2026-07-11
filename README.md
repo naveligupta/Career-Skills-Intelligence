@@ -6,7 +6,7 @@ An interactive career analytics dashboard built using **Python, Streamlit, Panda
 
 ## 🚀 Live Demo
 
-🔗 https://career-skills-intelligence-ja35zupjpkv92ftexnuecc.streamlit.app/
+🔗 https://career-skills-intelligence-dgthmwi9vldh6kqsrunp27.streamlit.app/
 
 ---
 
