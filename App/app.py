@@ -4,7 +4,7 @@ from utils.data_loader import load_data
 from views.home import show_home
 from views.market_analysis import show_market_analysis
 from views.career_progression import show_career_progression
-#from views.skill_gap import show_skill_gap
+from views.skill_gap import show_skill_gap
 from views.about import show_about
 # ----------------------------
 # Page Configuration
@@ -34,6 +34,7 @@ page = st.sidebar.radio(
         "🏠 Home",
         "📊 Market Analysis",
         "📈 Career Progression",
+        "🎯 Skill Gap Analyzer",
         "ℹ️ About"
     ]
 )
@@ -50,6 +51,9 @@ elif page == "📊 Market Analysis":
 
 elif page == "📈 Career Progression":
     show_career_progression(df)
+
+elif page=="🎯 Skill Gap Analyzer":
+    show_skill_gap(df)
 
 elif page == "ℹ️ About":
     show_about()
